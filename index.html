@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Alan Vega</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!--MENU-->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Alan</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio"onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi"onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills"onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum"onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portafolio"onclick="seleccionar()">PORTAFOLIO</a></li>
+                    <li><a href="#contacto"onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!--inicio-->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="./img/alan.jpg" alt="">
+            </div>
+            <h1>ALAN VEGA</h1>
+            <H2>Ingeniero Informatico</H2>
+            <div class="redes">
+                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                
+
+
+            </div>
+        </div>
+    </section>
+
+    <!--sobremi-->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Alan Vega.</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam unde soluta minima necessitatibus, voluptas consectetur vero officiis quas, explicabo deleniti repellendus aliquid debitis maiores numquam voluptate reprehenderit in delectus dolores.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            17-06-2002
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            +569 5788 3556
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            ala.vegac@duocuc.cl
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            www.alan-vega.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            #999 Pueto Chacabuco, Chile
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>FREELANCE</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>FOTOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-cannabis"></i>                           
+                        <span>HAPPY HOUR</span>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            <button>
+                Mi linkedin <i class="fa-brands fa-linkedin"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!--mis skills -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Habilidades técnicas</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso javascript">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso htmlcss">
+                                <span>59%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>PYTHON</span>
+                        <div class="barra-skill">
+                            <div class="progreso python">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Habilidades profesionales</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso comunicacion">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso trabajo">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso creatividad">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso dedicacion">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Educación basica</h4>
+                        <span class="casa">Colegio Dario Salas</span>
+                        <span class="fecha">2009 - 2016</span>
+                        <p>Educación basica completada</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Educación Media</h4>
+                        <span class="casa">Colegio Dario Salas</span>
+                        <span class="fecha">2017 - 2021</span>
+                        <p>Educación media completada</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Educación Superior</h4>
+                        <span class="casa">DUOC UC</span>
+                        <span class="fecha">2023 - 2026</span>
+                        <p>Cursando segundo año de la carrera de ingenieria informatica</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Garzon</h4>
+                        <span class="casa"> Fuente de ali</span>
+                        <span class="fecha">2020 - 20022</span>
+                        <p>Desempeñe el labor de Garzon desde el año 2020 hasta el año 2022 </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Repartidor</h4>
+                        <span class="casa">Panaderia Alma pan</span>
+                        <span class="fecha">2023 - 2023</span>
+                        <p>Me desemepeñe como repartidor el año 2023, desde el 10 de febrero hasta el 10 de diciembre </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTAFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="./img/1.png" alt="">
+                    <div class="overlay">
+                        <h3>Diseño de pagina web</h3>
+                        <p>GasMonkey</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="./img/3.png" alt="">
+                    <div class="overlay">
+                        <h3>Diseño de pagina web</h3>
+                        <p>GasMonkey</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="/img/2.png" alt="">
+                    <div class="overlay">
+                        <h3>Diseño de pagina web</h3>
+                        <p>GasMonkey</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="./img/mapapulento1.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Puerto Chacabuco 999, Puerto Montt
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamanos: +569 5788 3656 
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: ala.vegac@duocuc.cl
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            
+        </div>
+    </footer>
+
+    <script src="script.js"></script>   
+    
+
+
+</body>
+</html>
